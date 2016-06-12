@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>doLogin</key>
+	<dict>
+		<key>functionName</key>
+		<string>login</string>
+		<key>nameSpace</key>
+		<string>http://sei.serv.merp.multiable.com/</string>
+		<key>soapUrl</key>
+		<string>services/MerpLoginServicePort</string>
+		<key>verifyKey</key>
+		<string>loginMessage</string>
+		<key>soapActionUrl</key>
+		<string>services/MerpLoginServicePort</string>
+		<key>parameter</key>
+		<dict>
+			<key>email</key>
+			<string></string>
+			<key>password</key>
+			<string></string>
+		</dict>
+		<key>isStrongQuote</key>
+		<false/>
+	</dict>
+</dict>
+</plist>

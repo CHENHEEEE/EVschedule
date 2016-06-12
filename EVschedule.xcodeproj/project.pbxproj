@@ -1,0 +1,498 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		871708BE1CC876A20067D9F3 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 871708BD1CC876A20067D9F3 /* Security.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		8741BCCC1CCCEED400226C15 /* MBProgressHUD+NJ.m in Sources */ = {isa = PBXBuildFile; fileRef = 8741BCCA1CCCEED400226C15 /* MBProgressHUD+NJ.m */; };
+		8741BCCD1CCCEED400226C15 /* MBProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8741BCCB1CCCEED400226C15 /* MBProgressHUD.bundle */; };
+		877616C51CACFF6C00ABCF95 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 877616C41CACFF6C00ABCF95 /* main.m */; };
+		877616C81CACFF6C00ABCF95 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 877616C71CACFF6C00ABCF95 /* AppDelegate.m */; };
+		877616CB1CACFF6C00ABCF95 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 877616CA1CACFF6C00ABCF95 /* ViewController.m */; };
+		877616CE1CACFF6C00ABCF95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 877616CC1CACFF6C00ABCF95 /* Main.storyboard */; };
+		877616D01CACFF6C00ABCF95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 877616CF1CACFF6C00ABCF95 /* Assets.xcassets */; };
+		877616D31CACFF6C00ABCF95 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 877616D11CACFF6C00ABCF95 /* LaunchScreen.storyboard */; };
+		8781904D1CCCEDE300556D2B /* LEAFConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 878190421CCCEDE300556D2B /* LEAFConnection.m */; };
+		8781904E1CCCEDE300556D2B /* LEAFSoap.m in Sources */ = {isa = PBXBuildFile; fileRef = 878190451CCCEDE300556D2B /* LEAFSoap.m */; };
+		8781904F1CCCEDE300556D2B /* LEAFSoapEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 878190481CCCEDE300556D2B /* LEAFSoapEntity.m */; };
+		878190501CCCEDE300556D2B /* LEAFCManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8781904B1CCCEDE300556D2B /* LEAFCManager.m */; };
+		878190511CCCEDE300556D2B /* LEAFSoapConfiguration.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8781904C1CCCEDE300556D2B /* LEAFSoapConfiguration.plist */; };
+		87D8A0D41CC3700500C331DA /* ScheduleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87D8A0D31CC3700500C331DA /* ScheduleViewController.m */; };
+		87DB0A631CBCF9490083193C /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87DB0A621CBCF9490083193C /* MainViewController.m */; };
+		A8D5684DDC6C99594961657E /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 59F6FAE0C7C82C35D0657FF2 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4A1C8AA464A86AD7860B51F9 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		599E9BF5A47A1EBF31CF91DF /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		59F6FAE0C7C82C35D0657FF2 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		871708BD1CC876A20067D9F3 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		8741BCC91CCCEED400226C15 /* MBProgressHUD+NJ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+NJ.h"; sourceTree = "<group>"; };
+		8741BCCA1CCCEED400226C15 /* MBProgressHUD+NJ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+NJ.m"; sourceTree = "<group>"; };
+		8741BCCB1CCCEED400226C15 /* MBProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MBProgressHUD.bundle; sourceTree = "<group>"; };
+		877616C01CACFF6C00ABCF95 /* EVschedule.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EVschedule.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		877616C41CACFF6C00ABCF95 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		877616C61CACFF6C00ABCF95 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		877616C71CACFF6C00ABCF95 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		877616C91CACFF6C00ABCF95 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		877616CA1CACFF6C00ABCF95 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		877616CD1CACFF6C00ABCF95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		877616CF1CACFF6C00ABCF95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		877616D21CACFF6C00ABCF95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		877616D41CACFF6C00ABCF95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		878190411CCCEDE300556D2B /* LEAFConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LEAFConnection.h; sourceTree = "<group>"; };
+		878190421CCCEDE300556D2B /* LEAFConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LEAFConnection.m; sourceTree = "<group>"; };
+		878190441CCCEDE300556D2B /* LEAFSoap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LEAFSoap.h; sourceTree = "<group>"; };
+		878190451CCCEDE300556D2B /* LEAFSoap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LEAFSoap.m; sourceTree = "<group>"; };
+		878190471CCCEDE300556D2B /* LEAFSoapEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LEAFSoapEntity.h; sourceTree = "<group>"; };
+		878190481CCCEDE300556D2B /* LEAFSoapEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LEAFSoapEntity.m; sourceTree = "<group>"; };
+		8781904A1CCCEDE300556D2B /* LEAFCManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LEAFCManager.h; sourceTree = "<group>"; };
+		8781904B1CCCEDE300556D2B /* LEAFCManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LEAFCManager.m; sourceTree = "<group>"; };
+		8781904C1CCCEDE300556D2B /* LEAFSoapConfiguration.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = LEAFSoapConfiguration.plist; sourceTree = "<group>"; };
+		87D8A0D21CC3700500C331DA /* ScheduleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScheduleViewController.h; sourceTree = "<group>"; };
+		87D8A0D31CC3700500C331DA /* ScheduleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScheduleViewController.m; sourceTree = "<group>"; };
+		87DB0A611CBCF9490083193C /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		87DB0A621CBCF9490083193C /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		877616BD1CACFF6C00ABCF95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				871708BE1CC876A20067D9F3 /* Security.framework in Frameworks */,
+				A8D5684DDC6C99594961657E /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11451552FB015504AB291E75 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				599E9BF5A47A1EBF31CF91DF /* Pods.debug.xcconfig */,
+				4A1C8AA464A86AD7860B51F9 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8741BCC81CCCEED400226C15 /* add */ = {
+			isa = PBXGroup;
+			children = (
+				8741BCC91CCCEED400226C15 /* MBProgressHUD+NJ.h */,
+				8741BCCA1CCCEED400226C15 /* MBProgressHUD+NJ.m */,
+				8741BCCB1CCCEED400226C15 /* MBProgressHUD.bundle */,
+			);
+			path = add;
+			sourceTree = "<group>";
+		};
+		877616B71CACFF6C00ABCF95 = {
+			isa = PBXGroup;
+			children = (
+				8781903F1CCCEDE300556D2B /* LENetWorking */,
+				877616C21CACFF6C00ABCF95 /* EVschedule */,
+				877616C11CACFF6C00ABCF95 /* Products */,
+				11451552FB015504AB291E75 /* Pods */,
+				B56DDEBEE8FCDA5BFFB7B9D3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		877616C11CACFF6C00ABCF95 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				877616C01CACFF6C00ABCF95 /* EVschedule.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		877616C21CACFF6C00ABCF95 /* EVschedule */ = {
+			isa = PBXGroup;
+			children = (
+				8741BCC81CCCEED400226C15 /* add */,
+				877616C61CACFF6C00ABCF95 /* AppDelegate.h */,
+				877616C71CACFF6C00ABCF95 /* AppDelegate.m */,
+				877616C91CACFF6C00ABCF95 /* ViewController.h */,
+				877616CA1CACFF6C00ABCF95 /* ViewController.m */,
+				877616CC1CACFF6C00ABCF95 /* Main.storyboard */,
+				877616CF1CACFF6C00ABCF95 /* Assets.xcassets */,
+				877616D11CACFF6C00ABCF95 /* LaunchScreen.storyboard */,
+				877616D41CACFF6C00ABCF95 /* Info.plist */,
+				877616C31CACFF6C00ABCF95 /* Supporting Files */,
+				87DB0A611CBCF9490083193C /* MainViewController.h */,
+				87DB0A621CBCF9490083193C /* MainViewController.m */,
+				87D8A0D21CC3700500C331DA /* ScheduleViewController.h */,
+				87D8A0D31CC3700500C331DA /* ScheduleViewController.m */,
+			);
+			path = EVschedule;
+			sourceTree = "<group>";
+		};
+		877616C31CACFF6C00ABCF95 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				877616C41CACFF6C00ABCF95 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8781903F1CCCEDE300556D2B /* LENetWorking */ = {
+			isa = PBXGroup;
+			children = (
+				878190401CCCEDE300556D2B /* LEAFConnection */,
+				878190431CCCEDE300556D2B /* LEAFSoap */,
+				878190461CCCEDE300556D2B /* LEAFSoapEntity */,
+				878190491CCCEDE300556D2B /* LEConfigurationManager */,
+			);
+			path = LENetWorking;
+			sourceTree = "<group>";
+		};
+		878190401CCCEDE300556D2B /* LEAFConnection */ = {
+			isa = PBXGroup;
+			children = (
+				878190411CCCEDE300556D2B /* LEAFConnection.h */,
+				878190421CCCEDE300556D2B /* LEAFConnection.m */,
+			);
+			path = LEAFConnection;
+			sourceTree = "<group>";
+		};
+		878190431CCCEDE300556D2B /* LEAFSoap */ = {
+			isa = PBXGroup;
+			children = (
+				878190441CCCEDE300556D2B /* LEAFSoap.h */,
+				878190451CCCEDE300556D2B /* LEAFSoap.m */,
+			);
+			path = LEAFSoap;
+			sourceTree = "<group>";
+		};
+		878190461CCCEDE300556D2B /* LEAFSoapEntity */ = {
+			isa = PBXGroup;
+			children = (
+				878190471CCCEDE300556D2B /* LEAFSoapEntity.h */,
+				878190481CCCEDE300556D2B /* LEAFSoapEntity.m */,
+			);
+			path = LEAFSoapEntity;
+			sourceTree = "<group>";
+		};
+		878190491CCCEDE300556D2B /* LEConfigurationManager */ = {
+			isa = PBXGroup;
+			children = (
+				8781904A1CCCEDE300556D2B /* LEAFCManager.h */,
+				8781904B1CCCEDE300556D2B /* LEAFCManager.m */,
+				8781904C1CCCEDE300556D2B /* LEAFSoapConfiguration.plist */,
+			);
+			path = LEConfigurationManager;
+			sourceTree = "<group>";
+		};
+		B56DDEBEE8FCDA5BFFB7B9D3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				871708BD1CC876A20067D9F3 /* Security.framework */,
+				59F6FAE0C7C82C35D0657FF2 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		877616BF1CACFF6C00ABCF95 /* EVschedule */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 877616D71CACFF6C00ABCF95 /* Build configuration list for PBXNativeTarget "EVschedule" */;
+			buildPhases = (
+				0FD54BDEAB0043534456952F /* Check Pods Manifest.lock */,
+				877616BC1CACFF6C00ABCF95 /* Sources */,
+				877616BD1CACFF6C00ABCF95 /* Frameworks */,
+				877616BE1CACFF6C00ABCF95 /* Resources */,
+				840E9665FB55746632DF0D36 /* Embed Pods Frameworks */,
+				3F31D98DA6B25B8502B271FA /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EVschedule;
+			productName = EVschedule;
+			productReference = 877616C01CACFF6C00ABCF95 /* EVschedule.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		877616B81CACFF6C00ABCF95 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "陈鹤";
+				TargetAttributes = {
+					877616BF1CACFF6C00ABCF95 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = WGR6X5A3J6;
+					};
+				};
+			};
+			buildConfigurationList = 877616BB1CACFF6C00ABCF95 /* Build configuration list for PBXProject "EVschedule" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 877616B71CACFF6C00ABCF95;
+			productRefGroup = 877616C11CACFF6C00ABCF95 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				877616BF1CACFF6C00ABCF95 /* EVschedule */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		877616BE1CACFF6C00ABCF95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				878190511CCCEDE300556D2B /* LEAFSoapConfiguration.plist in Resources */,
+				877616D31CACFF6C00ABCF95 /* LaunchScreen.storyboard in Resources */,
+				8741BCCD1CCCEED400226C15 /* MBProgressHUD.bundle in Resources */,
+				877616D01CACFF6C00ABCF95 /* Assets.xcassets in Resources */,
+				877616CE1CACFF6C00ABCF95 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0FD54BDEAB0043534456952F /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3F31D98DA6B25B8502B271FA /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		840E9665FB55746632DF0D36 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		877616BC1CACFF6C00ABCF95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				877616CB1CACFF6C00ABCF95 /* ViewController.m in Sources */,
+				8741BCCC1CCCEED400226C15 /* MBProgressHUD+NJ.m in Sources */,
+				87DB0A631CBCF9490083193C /* MainViewController.m in Sources */,
+				877616C81CACFF6C00ABCF95 /* AppDelegate.m in Sources */,
+				878190501CCCEDE300556D2B /* LEAFCManager.m in Sources */,
+				8781904F1CCCEDE300556D2B /* LEAFSoapEntity.m in Sources */,
+				877616C51CACFF6C00ABCF95 /* main.m in Sources */,
+				87D8A0D41CC3700500C331DA /* ScheduleViewController.m in Sources */,
+				8781904D1CCCEDE300556D2B /* LEAFConnection.m in Sources */,
+				8781904E1CCCEDE300556D2B /* LEAFSoap.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		877616CC1CACFF6C00ABCF95 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				877616CD1CACFF6C00ABCF95 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		877616D11CACFF6C00ABCF95 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				877616D21CACFF6C00ABCF95 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		877616D51CACFF6C00ABCF95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: HaiQiang Liu (W6G82PBL94)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: HaiQiang Liu (W6G82PBL94)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "06d08f90-4e4d-4597-b096-aea350bafc49";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		877616D61CACFF6C00ABCF95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: HaiQiang Liu (WGR6X5A3J6)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: HaiQiang Liu (WGR6X5A3J6)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "0bf609b1-1c8f-4c9b-a0c8-714efb4d742c";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		877616D81CACFF6C00ABCF95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 599E9BF5A47A1EBF31CF91DF /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = EVschedule/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = EVteam.EVschedule;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		877616D91CACFF6C00ABCF95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A1C8AA464A86AD7860B51F9 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = EVschedule/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = EVteam.EVschedule;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		877616BB1CACFF6C00ABCF95 /* Build configuration list for PBXProject "EVschedule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				877616D51CACFF6C00ABCF95 /* Debug */,
+				877616D61CACFF6C00ABCF95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		877616D71CACFF6C00ABCF95 /* Build configuration list for PBXNativeTarget "EVschedule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				877616D81CACFF6C00ABCF95 /* Debug */,
+				877616D91CACFF6C00ABCF95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 877616B81CACFF6C00ABCF95 /* Project object */;
+}
