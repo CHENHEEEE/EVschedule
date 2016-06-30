@@ -114,26 +114,11 @@
 
 #pragma mark 设置点击事件:
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
-//    NSString *content;
-//    content=[NSString stringWithFormat:@"%@",[appDelegate.StuList objectAtIndex:indexPath.row]];
-//    
-//    //初始化提示框；
-//    UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"提示" message:content preferredStyle:  UIAlertControllerStyleAlert];
-//    
-//    [alert addAction:[UIAlertAction actionWithTitle:@"确定" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
-//        //点击按钮的响应事件；
-//    }]];
-//    
-//    //弹出提示框；
-//    NSLog(@"%@",content);
-//    [self presentViewController:alert animated:true completion:nil];
-    
     //取消选中
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
     
     appDelegate.selectedname = [NSString stringWithFormat:@"%@",[appDelegate.StuList objectAtIndex:indexPath.row]];
     appDelegate.selectedname = [appDelegate.selectedname stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceCharacterSet]];
-    NSLog(@"selectedname:%@",appDelegate.selectedname);
     //[self performSegueWithIdentifier:@"toScheduleView" sender:self];
     
     //获取storyboard: 通过bundle根据storyboard的名字来获取我们的storyboard,
@@ -144,7 +129,7 @@
     
     //由navigationController推向我们要推向的view
     //[self.navigationController pushViewController:myView animated:YES];
-    [MBProgressHUD showMessage:@"载入中"];
+    //[MBProgressHUD showMessage:@"载入中"];
     
     UIBarButtonItem *backItem = [[UIBarButtonItem alloc] initWithTitle:@"" style:UIBarButtonItemStylePlain target:nil action:nil];
     self.navigationItem.backBarButtonItem = backItem;

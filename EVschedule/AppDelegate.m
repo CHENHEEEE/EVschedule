@@ -35,7 +35,6 @@
     //如果用户未登陆则把根视图控制器改变成登陆视图控制器
     if (name != nil)
     {
-        NSLog(@"login-username:%@",name);
         self.window.rootViewController = self.navigationcontroller;
     }
     return YES;

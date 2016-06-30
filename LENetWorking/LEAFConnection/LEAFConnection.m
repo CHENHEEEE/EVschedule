@@ -156,9 +156,9 @@
 
 - (void) startRequestWithCompleteBlock : (LEAFSoapComplete) completeBlock {
     _completeBlock = completeBlock;
-    if ( _completeBlock ) {
-        NSLog(@"_completeBlock:true");
-    }
+//    if ( _completeBlock ) {
+//        NSLog(@"_completeBlock:true");
+//    }
     [self start];
 }
 

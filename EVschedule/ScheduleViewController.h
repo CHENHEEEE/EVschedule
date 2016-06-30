@@ -13,9 +13,9 @@
 #import "AppDelegate.h"
 #import "MBProgressHUD+NJ.h"
 
-@interface ScheduleViewController : UITableViewController
+@interface ScheduleViewController : UITableViewController<UITextFieldDelegate>
 
-@property (strong, nonatomic) IBOutlet UITableView *ScheduleTableView;
+@property (strong,nonatomic) IBOutlet UITableView *ScheduleTableView;
 
 - (IBAction)refresh:(id)sender;
 @end
